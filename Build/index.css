@@ -6303,28 +6303,25 @@ h2 {
 }
 
 #third-text-box {
-    position: absolute;
+    position: relative;
+    top: 5%;
     /*Width: 35vw;*/
     Width: 80%;
     margin-left: 5vw;
-    margin-top: 5vh;
 }
 
 .planet-container {
-    /*width: 600px;
-    margin: 0 auto;
+    margin-inline: auto;
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(3, 1fr);*/
-    display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    max-width: 85%;
-    /*height: 100vh;*/
+    grid-template-columns: repeat(3, 1fr);
     position: relative;
+    max-width: 90%;
+    height: 70vh;
 }
 
 .planets_sub {
-    margin: 0 10px;
+    margin: 0 0px;
 }
 
 .planets {
@@ -6373,7 +6370,7 @@ h2 {
     top: 60px;
 }
 
-.coordn .coordinates {
+.coordi .coordinates {
     max-width: 85%;
     height: 100vh;
     position: relative;
