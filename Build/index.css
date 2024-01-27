@@ -6328,7 +6328,7 @@ h2 {
     max-width: 100%;
 }
 
-.Chera {
+#Chera {
     position: absolute;
 }
 
@@ -6370,12 +6370,16 @@ h2 {
     top: 60px;
 }
 
-.coordi .coordinates {
+.coordinates {
+    margin-inline: auto;
     max-width: 85%;
-    height: 100vh;
+    height: 70vh;
     position: relative;
+    gap: 1rem;
+    bottom: 100;
     display: grid;
     grid-template-columns: repeat(3, 3fr);
+    transform: translate(0%, -90%);
     /*position: absolute;
     top: 50%;
     left: 50%;
@@ -6528,10 +6532,10 @@ h2 {
     line-height: 70px;
 }
 
-.planets {
+/*.planets {
     margin-left: 10vw;
     margin-top: 10vh;
-}
+}*/
 
 .text-box-4 {
     position: absolute;
@@ -6617,6 +6621,19 @@ h2 {
     /*transform: rotate(10deg);*/
     /*margin: 0 auto;*/
 }
+
+.nine h3 {
+    font-family: helv;
+    color: #E7D721;
+    font-size: 14px;
+}
+
+.coordinate-text {
+    color: #E7D721;
+    font-family: 'Sorts Mill Goudy', serif;
+    width: 100%;
+}
+
 
 */ #trashtxt {
     width: 33%;
