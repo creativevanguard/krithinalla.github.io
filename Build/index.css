@@ -6245,7 +6245,7 @@ h2 {
 
 /*firstsection*/
 
-.overlay {
+.overlay-first {
     background-color: rgba(0, 0, 0, 0.5);
     top: 0;
     left: 0;
@@ -6308,6 +6308,7 @@ h2 {
     /*Width: 35vw;*/
     Width: 80%;
     margin-left: 5vw;
+    font-size: 28px;
 }
 
 .planet-container {
@@ -6329,7 +6330,7 @@ h2 {
 }
 
 #Chera {
-    position: absolute;
+    position: relative;
 }
 
 #Kumari {
@@ -6337,7 +6338,17 @@ h2 {
     top: 30px;
 }
 
+#Kumari-text {
+    position: relative;
+    top: 30px;
+}
+
 #Chithirai {
+    position: relative;
+    top: 60px;
+}
+
+#Chithirai-text {
     position: relative;
     top: 60px;
 }
@@ -6351,7 +6362,17 @@ h2 {
     top: 30px;
 }
 
+#Vrischikam-text {
+    position: relative;
+    top: 30px;
+}
+
 #Vadakkechira {
+    position: relative;
+    top: 60px;
+}
+
+#Vadakkechira-text {
     position: relative;
     top: 60px;
 }
@@ -6365,7 +6386,17 @@ h2 {
     top: 30px;
 }
 
+#Thiruvalluvar-text {
+    position: relative;
+    top: 30px;
+}
+
 #kulak2 {
+    position: relative;
+    top: 60px;
+}
+
+#Kula-text {
     position: relative;
     top: 60px;
 }
@@ -6375,8 +6406,8 @@ h2 {
     max-width: 85%;
     height: 70vh;
     position: relative;
-    gap: 1rem;
-    bottom: 100;
+    gap: 1.2rem;
+    bottom: 90;
     display: grid;
     grid-template-columns: repeat(3, 3fr);
     transform: translate(0%, -90%);
@@ -6387,29 +6418,63 @@ h2 {
     padding: 10px;*/
 }
 
+.master-planet-container {
+    margin-top: 20%;
+}
+
 #fourth-div {
-    background-image: url('../prlx_images/trash.png');
+    background-image: url('../prlx_images/hottrash.png');
     background-repeat: no-repeat;
     max-width: 100%;
     height: 100vh;
     background-size: cover;
-    font-size: 32px;
+    background-position: center;
+}
+
+.overlay-second {
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
 }
 
 #fifth-div {
-    background-image: url('../prlx_images/pinkbg.png');
+    background-image: url(../prlx_images/pinkbg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /*height:100vh;*/
-    /*background-size: contain;*/
+    /* height: 100vh; */
+    /* background-size: contain; */
     max-width: 100%;
-    height: auto;
+    padding: auto;
+    height: 90vh;
 }
 
 #sixth-div {
-    background-image: url('../prlx_images/skybghumble.png');
+    background-image: url(../prlx_images/skybghumble.png);
     height: 100vh;
+    background-repeat: no-repeat;
+    max-width: 100%;
     background-size: cover;
+}
+
+.overlay-third{
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+
+.sixth-title{
+    font-size: 32px;
+    position: relative;
+    right: 15vw;
 }
 
 
@@ -6539,7 +6604,7 @@ h2 {
 
 .text-box-4 {
     position: absolute;
-    margin-top: 5vh;
+    margin-top: 12vh;
     margin-left: 3vw;
 }
 
@@ -6561,9 +6626,11 @@ h2 {
 }
 
 #humtxt {
-    width: 30vw;
+    width: 43vw;
     font-family: 'Sorts Mill Goudy', serif;
     color: #E7D721;
+    position: relative;
+    right: 53vw;
 }
 
 .boxhead {
@@ -6575,6 +6642,11 @@ h2 {
 
 .head {
     font-family: 'Sorts Mill Goudy', serif;
+    position: relative;
+    left: 44vw;
+    width: 41vw;
+    margin-top: -15vh;
+    font-size: 27px;
 }
 
 .box h2 {
@@ -6582,15 +6654,38 @@ h2 {
 }
 
 .amul {
+    max-width: 67vw;
     position: absolute;
     left: 0;
-    margin-top: -10vh;
+    margin-top: -30vh;
 }
+
+/*.bluebgtrash{
+    max-width: 100%;
+    position: relative;
+    bottom: 0
+}*/
+
+.dumptrash {
+    max-width: 344vw;
+    position: absolute;
+    margin-top: 117vh;
+}
+
+.bluebgtrash {
+    max-width: 111vw;
+    z-index: 1;
+    position: absolute;
+    margin-top: 14vh;
+}
+
+
 
 .sat {
     position: absolute;
-    right: 0;
-    margin-top: 30vh;
+    max-width: 39vw;
+    margin-top: 59vh;
+    margin-left: 62vw;
 }
 
 .grid {
@@ -6618,6 +6713,7 @@ h2 {
 
 .nine {
     width: 10vw;
+    padding: 10px;
     /*transform: rotate(10deg);*/
     /*margin: 0 auto;*/
 }
@@ -6631,20 +6727,29 @@ h2 {
 .coordinate-text {
     color: #E7D721;
     font-family: 'Sorts Mill Goudy', serif;
-    width: 100%;
+    font-size: 11px;
+    width: 26vw;
 }
 
 
-*/ #trashtxt {
-    width: 33%;
+ #trashtxt {
+    /*width: 33%;
     font-family: 'Sorts Mill Goudy', serif;
+    color: #E7D721;*/
     color: #E7D721;
+    font-family: 'Sorts Mill Goudy', serif;
+    z-index: 1;
+    width: 66vw;
+    font-size: 12px;
 }
+
 
 .specs {
     font-family: helv;
     color: #000;
-    font-size: 38px;
+    font-size: 18px;
+    margin-inline: 10px;
+    padding-top: 50px;
 }
 
 .lineht {
@@ -6654,19 +6759,26 @@ h2 {
 .smallt {
     font-family: 'Sorts Mill Goudy', serif;
     color: white;
-    font-size: 30px;
+    font-size: 16px;
 }
 
 .bigtt {
-    font-size: 80px;
+    font-size: 38px;
     color: white;
 }
 
 .limit {
-    position: absolute;
+   /* position: absolute;
     right: 0;
     width: 30vw;
     margin-top: 70vh;
+    margin-right: -3vw;*/
+    text-align: center;
+    line-height: 5px;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    margin-top: 56vh;
     margin-right: -3vw;
 }
 
@@ -6677,9 +6789,9 @@ h2 {
 .ar {
     position: absolute;
     right: 0;
-    width: 30vw;
-    margin-top: 87vh;
-    margin-right: -3vw;
+    width: 76vw;
+    margin-top: 64vh;
+    margin-right: 12vw;
     font-family: helv;
     color: #E7D721;
 }
@@ -6692,8 +6804,9 @@ h2 {
 .vim1 {
     position: absolute;
     left: 0;
-    margin-top: 160vh;
-    width: 40%;
+    margin-top: 221vh;
+    width: 30%;
+    margin-left: 5vw;
 }
 
 .vim:hover {
@@ -6716,16 +6829,17 @@ h2 {
 .vim {
     position: absolute;
     right: 0;
-    margin-top: 60vh;
-    width: 35%;
+    margin-top: 97vh;
+    width: 25%;
+    margin-right: 5vw;
 }
 
 .frame {
     position: absolute;
     left: 0;
-    margin-top: -35vh;
-    width: 40vw;
-    margin-left: 10vw;
+    margin-top: -43vh;
+    width: 47vw;
+    margin-left: 7vw;
 }
 
 .frame1 {
@@ -6733,7 +6847,7 @@ h2 {
     right: 0;
     width: 43vw;
     margin-right: 5vw;
-    margin-top: -15vh;
+    margin-top: -23vh;
 }
 
 .scloud {
