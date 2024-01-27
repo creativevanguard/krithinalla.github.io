@@ -1,5 +1,10 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -30,7 +35,8 @@ summary {
     display: block;
 }
 
-audio,
+
+/*audio,
 canvas,
 progress,
 video {
@@ -46,7 +52,7 @@ audio:not([controls]) {
 [hidden],
 template {
     display: none;
-}
+}*/
 
 a {
     background-color: transparent;
@@ -6153,6 +6159,9 @@ section {
     cursor: move;
 }
 
+
+/*firstsection*/
+
 #blprint {
     position: absolute;
     right: 0;
@@ -6160,16 +6169,19 @@ section {
     width: 30vw;
 }
 
+
+/*firstsection*/
+
 #cl {
-    right: -15vw;
-    margin-top: -40vh;
+    right: -12vw;
+    margin-top: -15vh;
     position: absolute;
-    width: 70vw;
+    width: 79vw;
 }
 
 .ship {
     position: absolute;
-    right: 0;
+    left: 0;
     margin-top: 200px;
 }
 
@@ -6196,36 +6208,64 @@ section {
 h2 {
     font-family: helv;
     color: #E7D721;
+    font-size: 32px;
 }
 
-#text-box {
+
+/*firstsection*/
+
+#text-box-1 {
     position: absolute;
-    Width: 35vw;
+    /*Width: 35vw;*/
+    Width: 80%;
     margin-left: 5vw;
     display: flex;
     flex-direction: column;
     margin-top: 5vh;
 }
 
-#text-box p {
+#text-box-1 p {
     color: #E7D721;
     font-family: 'Sorts Mill Goudy', serif;
 }
 
+
+/*firstsection-done*/
+
 #first-div {
+    z-index: 1;
     background-image: url('../prlx_images/landingbg.png');
     background-repeat: no-repeat;
     max-width: 100%;
-    height: 110vh;
+    height: 100vh;
     /*height: auto;*/
     background-size: cover;
 }
 
+
+/*firstsection*/
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+
+/*secondsection*/
+
 #second-div {
     background-image: url('../prlx_images/bg2.png');
     height: 100vh;
-    margin-top: -6px;
+    z-index: -1;
+    /*margin-top: -4px;*/
     background-size: cover;
+    max-width: 100%;
+    /*position: absolute;*/
 }
 
 .testi {
@@ -6257,17 +6297,102 @@ h2 {
 #third-div {
     background-image: url('../prlx_images/shipanybg.png');
     height: 100vh;
+    max-width: 100%;
     margin: 0;
     background-size: cover;
+}
+
+#third-text-box {
+    position: absolute;
+    /*Width: 35vw;*/
+    Width: 80%;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+
+.planet-container {
+    /*width: 600px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);*/
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    max-width: 85%;
+    /*height: 100vh;*/
+    position: relative;
+}
+
+.planets_sub {
+    margin: 0 10px;
+}
+
+.planets {
+    max-width: 100%;
+}
+
+.Chera {
+    position: absolute;
+}
+
+#Kumari {
+    position: relative;
+    top: 30px;
+}
+
+#Chithirai {
+    position: relative;
+    top: 60px;
+}
+
+#Vaikaasi {
+    position: relative;
+}
+
+#Vrischikam {
+    position: relative;
+    top: 30px;
+}
+
+#Vadakkechira {
+    position: relative;
+    top: 60px;
+}
+
+#kulak1 {
+    position: relative;
+}
+
+#Thiru {
+    position: relative;
+    top: 30px;
+}
+
+#kulak2 {
+    position: relative;
+    top: 60px;
+}
+
+.coordinates {
+    max-width: 85%;
+    height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;*/
 }
 
 #fourth-div {
     background-image: url('../prlx_images/trash.png');
     background-repeat: no-repeat;
     max-width: 100%;
-    /*max-width: 100vh*/
     height: 100vh;
     background-size: cover;
+    font-size: 32px;
 }
 
 #fifth-div {
@@ -6286,21 +6411,29 @@ h2 {
     background-size: cover;
 }
 
+
+/*secondsection*/
+
 #lady {
+    /*margin-left: 5%;*/
     right: 0;
+    /*object-position: right bottom;*/
+    width: 85%;
     position: absolute;
-    margin-top: -10vh;
+    margin-top: -5vh;
 }
 
 #marigold {
     position: absolute;
     left: 0;
+    width: 50%;
 }
 
 #call {
     position: absolute;
     left: 10vw;
     margin-top: 10vh;
+    width: 50%;
 }
 
 .col:hover {
@@ -6310,9 +6443,12 @@ h2 {
 }
 
 #shipframe {
+    z-index: 1;
     position: absolute;
-    margin-left: 50vw;
-    margin-top: 10vh;
+    /*margin-right: 20vw;*/
+    margin-top: 55vh;
+    width: 60%;
+    margin-left: 40%;
 }
 
 #land {
@@ -6321,6 +6457,9 @@ h2 {
     left: 0;
 }
 
+
+/*firstsection*/
+
 #book {
     position: absolute;
     margin-top: -30vh;
@@ -6328,13 +6467,14 @@ h2 {
     cursor: pointer;
 }
 
-#ship {
+
+/*#ship {
     position: absolute;
     font-family: 'Sorts Mill Goudy', serif;
     color: #E7D721;
     right: 0;
-    margin-top: 250px;
-    margin-right: 250px;
+    margin-top: ;
+    margin-left: 10%;
 }
 
 #test {
@@ -6364,7 +6504,7 @@ h2 {
 }
 
 #second-text-box {
-    Width: 35vw;
+    Width: 110vw;
     margin-left: 5vw;
     display: flex;
     flex-direction: column;
@@ -6374,7 +6514,7 @@ h2 {
     color: #E7D721;
     font-family: 'Sorts Mill Goudy', serif;
     z-index: 1;
-    width: 30vw;
+    width: 86vw;
 }
 
 #second-text-box h2 {
@@ -6386,7 +6526,9 @@ h2 {
 }
 
 #book h2 {
-    font-size: 120px;
+    font-size: 80px;
+    margin-bottom: 120px;
+    line-height: 70px;
 }
 
 .planets {
@@ -6394,7 +6536,7 @@ h2 {
     margin-top: 10vh;
 }
 
-.box {
+.text-box-4 {
     position: absolute;
     margin-top: 5vh;
     margin-left: 3vw;
@@ -6474,11 +6616,12 @@ h2 {
 }
 
 .nine {
-    width: 15vw;
-    transform: rotate(10deg);
+    width: 10vw;
+    /*transform: rotate(10deg);*/
+    /*margin: 0 auto;*/
 }
 
-#trashtxt {
+*/ #trashtxt {
     width: 33%;
     font-family: 'Sorts Mill Goudy', serif;
     color: #E7D721;
