@@ -653,6 +653,7 @@ img {
             background-size: 221%;
             background-position: relative;
             width: 100%;
+            overflow-x: hidden;
         }
         
         #shipframe {
@@ -773,6 +774,7 @@ img {
             max-width: 100%;
             margin: 0;
             background-size: cover;
+            overflow-x: hidden;
         }
         
         #third-text-box {
