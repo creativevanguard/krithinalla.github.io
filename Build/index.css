@@ -574,7 +574,6 @@ img {
             /*height: auto;*/
             background-size: cover;
             overflow-x: hidden;
-            overflow-y: hidden;
         }
         
         .overlay-first {
@@ -649,7 +648,6 @@ img {
             background-position: relative;
             width: 100%;
             overflow-x: hidden;
-            overflow-y: hidden;
         }
         
         #shipframe {
@@ -771,7 +769,6 @@ img {
             margin: 0;
             background-size: cover;
             overflow-x: hidden;
-            overflow-y: hidden;
         }
         
         #third-text-box {
@@ -1147,6 +1144,7 @@ img {
             max-width: 100%;
             padding: auto;
             height: 90vh;
+            overflow-x: hidden;
         }
         
         .vim2 {
@@ -1249,6 +1247,7 @@ img {
             max-width: 100%;
             background-size: cover;
             background-position: right;
+            overflow-x: hidden;
         }
         
         .overlay-third {
