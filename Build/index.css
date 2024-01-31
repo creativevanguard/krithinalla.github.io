@@ -4,12 +4,6 @@
             margin: 0;
             padding: 0;
         }
-        /*{
-            /*overflow-x: hidden;*/
-        /*overflow-x: clip;*/
-        /*overflow-x: hidden;
-            overflow-x: visible;
-        }*/
         
         section {
             background-color: black;
@@ -972,6 +966,7 @@ img {
             height: 100vh;
             background-size: cover;
             background-position: center;
+            overflow-x: hidden;
         }
         
         .overlay-second {
