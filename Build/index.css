@@ -580,6 +580,7 @@ img {
             /*height: auto;*/
             background-size: cover;
             overflow-x: hidden;
+            overflow-y: hidden;
         }
         
         .overlay-first {
@@ -654,6 +655,7 @@ img {
             background-position: relative;
             width: 100%;
             overflow-x: hidden;
+            overflow-y: hidden;
         }
         
         #shipframe {
@@ -775,6 +777,7 @@ img {
             margin: 0;
             background-size: cover;
             overflow-x: hidden;
+            overflow-y: hidden;
         }
         
         #third-text-box {
