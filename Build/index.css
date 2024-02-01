@@ -634,18 +634,17 @@ img {
                 width: 40%;
             }
         }
-
+        /*---------------------------------------------------------------------*/
         /*Desktop Size*/
         @media (min-width:1920px) {
             #text-box-1{
-                Width: 43%;
+                Width: 30%;
                 margin-top: 8vh;
             }
 
             text-box-1 {
                 width: 35%;
             }
-
 
         }
 
@@ -776,6 +775,52 @@ img {
                 margin-top: 53vh;
             }
         }
+
+         /*---------------------------------------------------------------------*/
+        /*Desktop Size*/
+        @media (min-width:1920px) {
+            #second-div{
+                max-height: 100vh;
+        }
+
+        #marigold {
+            position: absolute;
+            left: 0px;
+            width: 22%;
+        }
+
+        #call {
+            margin-top: 4vh;
+            width: 21%;
+            position: absolute;
+            left: 20%;
+        }
+
+        #shipframe {
+            margin-top: 13vh;
+            width: 25%;
+            margin-left: 68%;
+        }
+
+        #cl {
+            right: -2%;
+            margin-top: 32vh;
+            width: 21%;
+        }
+
+        #lady {
+            right: 0px;
+            width: 20%;
+            margin-top: 42vh;
+        }
+        #land {
+            position: absolute;
+            margin-top: 56vh;
+            left: 0;
+            width: 100%;
+        }
+    }
+
         /*---------------------------------- End of Media Queries for Second Section ----------------------*/
         /*-------------------------- Third Section ------------------------------*/
         
