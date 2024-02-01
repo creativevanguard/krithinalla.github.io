@@ -636,7 +636,7 @@ img {
         }
         /*---------------------------------------------------------------------*/
         /*Desktop Size*/
-        @media (min-width:1920px) {
+        @media (min-width:1688px) {
             #text-box-1{
                 Width: 30%;
                 margin-top: 8vh;
@@ -778,7 +778,7 @@ img {
 
          /*---------------------------------------------------------------------*/
         /*Desktop Size*/
-        @media (min-width:1920px) {
+        @media (min-width:1688px) {
             #second-div{
                 max-height: 100vh;
         }
