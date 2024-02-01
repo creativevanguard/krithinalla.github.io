@@ -788,6 +788,9 @@ img {
             left: 0px;
             width: 22%;
         }
+        #testimonial{
+            display: none;
+        }
 
         #call {
             margin-top: 4vh;
@@ -819,6 +822,16 @@ img {
             left: 0;
             width: 100%;
         }
+
+        #second-text-box {
+            Width: 100%;
+            margin-left: 5%;
+        }
+
+        #second-text-box p { 
+            width: 30%;
+        }
+
     }
 
         /*---------------------------------- End of Media Queries for Second Section ----------------------*/
