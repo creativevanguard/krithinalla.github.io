@@ -1039,7 +1039,7 @@ img {
             } 
 
             .sat {
-                max-width: 10%;
+                max-width: 20vw;
                 margin-top: 40vh;
                 margin-left: 78vw;
             }
@@ -1052,16 +1052,16 @@ img {
                 font-size: 59px;
             }
             .fourlimit {
-                font-size: 161px;
+                font-size: 160px;
             }
             .second-click-link {
-                font-size: 21px;
-                position: absolute;
-                right: 0;
-                width: 20%;
-                margin-top: -22vh;
-                margin-right: 3vw;
-            }
+    font-size: 21px;
+    position: absolute;
+    right: 0;
+    width: 20%;
+    margin-top: -22vh;
+    margin-right: 3vw;
+}
             .text-box-4 {
                 margin-top: 8vh;
                 margin-left: 3vw;
@@ -1268,6 +1268,12 @@ img {
                 margin-top: 105vh;
             }
         }
+
+        .sat {
+            max-width: 18vw;
+            margin-top: 38vh;
+            margin-left: 81vw;
+        }
         /*---------------------------------- End of Media Queries for Fourth Section ----------------------*/
         /*-------------------------- Fifth Section ------------------------------*/
         
@@ -1293,6 +1299,7 @@ img {
             animation: fade-out linear forwards;
             animation-timeline: view();
             animation-range: 437px 501px;
+            display: none;
         }
         
         .vim3 {
@@ -1305,6 +1312,7 @@ img {
             animation: fade-out linear forwards;
             animation-timeline: view();
             animation-range: 25px 433px;
+            display: none;
         }
         
         @keyframes fade-out {
