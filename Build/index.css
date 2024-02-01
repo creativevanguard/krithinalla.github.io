@@ -1035,36 +1035,36 @@ img {
         @media (min-width:1688px){
             #trashtxt {
                 width: 60%;
-            }
+                font-size: 12px;
+            } 
 
-            sat {
-                max-width: 25vw;
-                margin-top: 43vh;
-                margin-left: 76vw;
+            .sat {
+                max-width: 20vw;
+                margin-top: 40vh;
+                margin-left: 78vw;
             }
             .limit {
-                line-height: 22px;
-                right: -55px;
+                line-height: 20px;
+                /* right: -53px; */
                 width: 100%;
-                margin-top: 39vh;
-                margin-right: -26%;
-                font-size: 61px;
+                margin-top: 31vh;
+                margin-right: -30%;
+                font-size: 59px;
             }
             .fourlimit {
-                font-size: 160px;
+                font-size: 161px;
             }
             .second-click-link {
                 font-size: 21px;
                 position: absolute;
-                /* right: 0; */
-                width: 19vw;
-                margin-top: -13vh;
-                margin-right: 1vw;
+                right: 0;
+                width: 20%;
+                margin-top: -22vh;
+                margin-right: 3vw;
             }
             .text-box-4 {
                 margin-top: 8vh;
                 margin-left: 3vw;
-                max-width: 31%;
             }
             .dumptrash {
                 max-width: 100vw;
