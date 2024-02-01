@@ -588,7 +588,6 @@ img {
         
         #text-box-1 {
             position: absolute;
-            /*Width: 35vw;*/
             Width: 80%;
             margin-left: 5vw;
             display: flex;
@@ -625,7 +624,7 @@ img {
             line-height: 70px;
         }
         /*---------------------------------- Media Queries for First Section ----------------------*/
-        
+        /*Tab Size*/
         @media (min-width:600px) {
             #text-box-1 {
                 Width: 69%;
@@ -635,6 +634,23 @@ img {
                 width: 40%;
             }
         }
+
+        /*Desktop Size*/
+        @media (min-width:1920px) {
+            #text-box-1{
+                Width: 43%;
+                margin-top: 8vh;
+            }
+
+            text-box-1 {
+                width: 35%;
+            }
+
+
+        }
+
+
+
         /*---------------------------------- End of Media Queries for First Section ----------------------*/
         /*-------------------------- Second Section ------------------------------*/
         
@@ -6298,7 +6314,7 @@ a.list-group-item-danger.active:focus {
 .panel>.table-responsive:first-child>.table:first-child>thead:first-child>tr:first-child th:last-child,
 .panel>.table:first-child>tbody:first-child>tr:first-child th:last-child,
 .panel>.table-responsive:first-child>.table:first-child>tbody:first-child>tr:first-child th:last-child {
-    border-top-right-radius: 3px;
+'    border-top'-right-radius: 3px;
 }
 
 .panel>.table:last-child,
