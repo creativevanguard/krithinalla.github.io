@@ -304,11 +304,13 @@
     </script>
 
     <script src="build/index.js"></script>
-    <script src="rellax/rellax.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+    <!--<script src="rellax/rellax.js"></script>-->
     <!-- For Parallax -->
     <script src="spin.js"></script>
     <!-- For Vahanaa-->
 
+    <!--
     <script>
         // Also can pass in optional settings block
         var rellax = new Rellax('.rellax', {
@@ -319,7 +321,13 @@
             vertical: true,
             horizontal: false
         });
+    </script>-->
+    <script>
+        // Init Rellax
+        let rellax = new Rellax ('.rellax');
     </script>
+
+
 </body>
 
 </html>
