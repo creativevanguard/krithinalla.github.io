@@ -681,13 +681,13 @@ img {
             margin-top: 200px;
         }
         
-        #testimonial {
+        /*#testimonial {
             position: absolute;
             left: 181px;
             width: 50%;
             margin-top: 49vh;
         }
-        
+        */
         #marigold {
             position: absolute;
             left: -103px;
@@ -767,35 +767,75 @@ img {
             z-index: 4;
         }*/
 
+        /*#btnID{
+        border: none;
+        color: black;
+        font-family: helv;
+        font-size: 12px;
+        background-color: yellow;
+        padding: 6px 13px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        z-index: 2;
+        position: absolute;
+        left: 65%;
+        top: 90%;   
+        }*/
+
+       #Testimonial-Card{
+        position: absolute;
+        left: 53%;
+        width: 45%;
+        /* top: -19vh; */
+        margin-top: 68vh;
+        z-index: 2;
+        display: none;
+       
+    }
+
         .button-wrapper{
-            z-index: 9999;
+            display: block;
+    position: absolute;
+    top: 94%;
+    left: 65%;
         }
+        
 
-        .testimonial-card{
-            position: absolute;
-            left: 55%;
-            width: 50vw;
-            top: 67%;
-            /* margin-top: 49vh; */
-           /* z-index: 2;*/
-        }
-
-        .testimonial-link{
-            text-decoration: none;
-            display: inline-block;
-           /* width: 200px;*/
-            padding: 6px 13px;
-            text-align: center;
-            color: black;
-            /*font-weight: bolder;*/
-            /*text-transform: uppercase;*/
-            /*border: 1px solid #e67e33;*/
-            background-color: yellow;
-            /*border-radius: 8px;*/
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+        #testimonial-link{
+        /*text-decoration: none;
+        display: inline-block;
+        width: 200px; 
+         padding: 6px 13px;
+        text-align: center;
+        color: black;
+        font-family: 'helv';
+        font-weight: bolder; 
+        text-transform: uppercase; 
+        background-color: yellow;
+        border-radius: 8px;
+        position: absolute;
+        top: 92%;
+        left: 60%;
+        transform: translate(80%, 400%); 
+        z-index: 2;*/
+        border: none;
+     color: black;
+    font-family: helv;
+    font-size: 12px;
+    background-color: yellow;
+    padding: 6px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    left: 65%;
+    top: 90%;
         }
 
 

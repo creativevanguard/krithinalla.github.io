@@ -47,17 +47,16 @@
                 <button class="testimonial-click">Testimonial</button>
                 </a>
             </div>-->
+                <img src="prlx_images/testimom.JPG" id="Testimonial-Card">
             <div class="button-wrapper">
-            <a href="#" class="testimonial-link"> Testimonial
-                    <span>
-                        <img src="prlx_images/testimom.JPG" class="testimonial-card">
-                    </span>
-            </a>
-             </div>
+            <button type="button" id="testimonial-link">Testimonial</button>   
+             <!--<a href="#" onclick="show()" id="testimonial-link" rel="nofollow">Testimonial</a>-->
+           </div>
+            <!--<button type="button" onclick="show()" id="btniD">Testimonial</button>-->
                 <img src="prlx_images/ship.png" id="shipframe" class="ship rellax" data-rellax-speed="1" data-rellax-zindex="4">
                 <img src="prlx_images/marigold.png" id="marigold" class="gold rellax" data-rellax-speed="0" data-rellax-zindex="0">
                 <img src="prlx_images/sec2land.png" id="land" class="land rellax" data-rellax-speed="-1" data-rellax-zindex="-1">
-               <!-<img src="prlx_images/testimom.JPG" id="testimonial" class="testi rellax" data-rellax-speed="2" data-rellax-zindex="2">-->
+               <!--<img src="prlx_images/testimom.JPG" id="testimonial" class="testi rellax" data-rellax-speed="2" data-rellax-zindex="2">-->
                 <img src="prlx_images/call.png" id="call" class="call rellax" class="rellax" data-rellax-speed="-1.3" data-rellax-zindex="4">
                 <img src="prlx_images/lady.png" id="lady" class="lady rellax" data-rellax-speed="-1" data-rellax-zindex="3" >
                 <img src="prlx_images/landingcloud.png" id="cl" class="cl rellax" data-rellax-speed="-1" data-rellax-zindex="4">
@@ -322,6 +321,15 @@
     <!--<script src="rellax/rellax.js"></script>-->
     <!-- For Parallax -->
     <script src="spin.js"></script>
+    <script>
+       $(document).ready(function(){
+        $("#testimonial-link").click(function() {
+            $("#Testimonial-Card").fadeToggle(500);
+        });
+
+       });
+
+    </script>
     <!-- For Vahanaa-->
 
     <!--
