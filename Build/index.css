@@ -762,6 +762,20 @@ img {
     left: 65%;
     top: 90%;
         }
+
+        .button-wrapper{
+            z-index: 4;
+        }
+
+        .testimonial-card{
+            position: absolute;
+            left: 181px;
+            width: 50%;
+            margin-top: 49vh;
+        }
+
+
+        
         /*---------------------------------- Media Queries for Second Section ----------------------*/
         
         @media (min-width:600px) {
