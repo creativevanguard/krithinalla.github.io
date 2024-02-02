@@ -1,10 +1,10 @@
         /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
         
-        * {
+    /* * {
             margin: 0;
             padding: 0;
         }
-        
+        */
         section {
             background-color: black;
         }
@@ -574,6 +574,7 @@ img {
             /*height: auto;*/
             background-size: cover;
             overflow-x: hidden;
+            overflow-y: hidden;
         }
         
         .overlay-first {
@@ -589,24 +590,35 @@ img {
         #text-box-1 {
             position: absolute;
             Width: 80%;
-            margin-left: 5vw;
+             /* margin-left: 5vw; */
+            left: 5%;
             display: flex;
             flex-direction: column;
-            margin-top: 5vh;
+            top:5%
         }
         
         #text-box-1 p {
             color: #E7D721;
             font-family: 'Sorts Mill Goudy', serif;
+            width: 58%;
         }
-        
+
         #blprint {
             position: absolute;
             right: 0;
+            top: 5%;
             margin: 20px;
             width: 30vw;
         }
-        
+
+        .bigcloud2 {
+            position: absolute;
+            width: 78%;
+            /* margin-top: 70vh; */
+            top: 46%;
+            left: 27%;
+        }
+    
         #book {
             position: absolute;
             margin-top: -30vh;
@@ -654,8 +666,8 @@ img {
         /*-------------------------- Second Section ------------------------------*/
         
         #second-div {
-            background-image: url('../prlx_images/bg2.png');
-            height: 95vh;
+            background-image: url('../prlx_images/boxb.png');
+            height: 95vh; 
             z-index: -1;
             /*margin-top: -4px;*/
             /* background-size: cover;*/
@@ -668,11 +680,12 @@ img {
         
         #shipframe {
             z-index: 1;
-            position: absolute;
-            /* margin-right: 20vw; */
-            margin-top: 17vh;
-            width: 48%;
-            margin-left: 47%;
+    position: absolute;
+    left: 35%;
+    /* margin-right: 20vw; */
+    /* margin-top: 17vh; */
+    top: -8%;
+    width: 60%;
         }
         
         .ship {
@@ -703,9 +716,10 @@ img {
         
         #call {
             position: absolute;
-            left: 4vw;
-            margin-top: 14vh;
-            width: 35%;
+    left: 5%;
+    top: 16%;
+    /* margin-top: 14vh; */
+    width: 42%;
         }
         
         #lady {
@@ -723,11 +737,12 @@ img {
         }
         
         #second-text-box {
-            Width: 110vw;
-            margin-left: 5vw;
-            display: flex;
-            flex-direction: column;
-            /* margin-top: 97vh;*/
+            Width: 90%;
+    /* margin-left: 5vw; */
+    left: 5%;
+    top: 5%;
+    display: block;
+    position: absolute;
         }
         
         #second-text-box p {
@@ -787,11 +802,12 @@ img {
 
        #Testimonial-Card{
         position: absolute;
-        left: 53%;
-        width: 45%;
-        /* top: -19vh; */
-        margin-top: 68vh;
-        z-index: 2;
+    left: 46%;
+    width: 50%;
+    /* top: -19vh; */
+    top: 68%;
+    /* margin-top: 68vh; */
+         z-index: 2;
         display: none;
        
     }
@@ -1210,8 +1226,8 @@ img {
         
         .text-box-4 {
             position: absolute;
-            margin-top: 12vh;
-            margin-left: 3vw;
+            top: 5%;
+            left: 5%;
         }
         
         #trashtxt {
@@ -1221,15 +1237,15 @@ img {
             color: #E7D721;
             font-family: 'Sorts Mill Goudy', serif;
             z-index: 1;
-            width: 66vw;
+            width: 50%;
             font-size: 12px;
         }
         
         .sat {
             position: absolute;
-            max-width: 39vw;
-            margin-top: 59vh;
-            margin-left: 62vw;
+            top: 16%;
+            max-width: 85%;
+            right: -20%;
         }
         
         .amul {
@@ -1389,26 +1405,28 @@ img {
         .vim2 {
             position: absolute;
             right: 0;
-            margin-top: 97vh;
-            width: 50%;
+            /* margin-top: 20%; */
+            top: 125%;
+            width: 45%;
             margin-right: 5vw;
             animation: fade-out linear forwards;
             animation-timeline: view();
             animation-range: 437px 501px;
-            display: none;
+            display: block;
         }
         
         .vim3 {
             position: absolute;
-            right: 0;
-            margin-top: 154vh;
+            right: 40%;
+            /* margin-top: 154vh; */
+            top: 180%;
             width: 50%;
-            margin-right: 5vw;
+            /* margin-right: 5vw; */
             transform: scaleX(-1);
             animation: fade-out linear forwards;
             animation-timeline: view();
             animation-range: 25px 433px;
-            display: none;
+            display: block;
         }
         
         @keyframes fade-out {
@@ -1551,13 +1569,6 @@ img {
             position: absolute;
             width: 60vw;
             margin-top: 220vh;
-        }
-        
-        .bigcloud2 {
-            position: absolute;
-            width: 50vw;
-            margin-top: 70vh;
-            left: -10vw;
         }
         
         .col:hover {
@@ -3612,14 +3623,6 @@ table th[class*="col-"] {
         .has-feedback label.sr-only~.form-control-feedback {
             top: 0;
         }
-        /*
-.help-block {
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    color: #737373;
-}
-*/
         
         @media (min-width: 768px) {
             .form-inline .form-group {
@@ -7291,7 +7294,7 @@ body {
         h2 {
             font-family: helv;
             color: #E7D721;
-            font-size: 32px;
+            font-size: 23px;
         }
         /*
 .testi {
