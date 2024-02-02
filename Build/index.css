@@ -745,7 +745,7 @@ img {
             margin-top: 56vh;
         }
 
-        .testimonial-click{
+        /*.testimonial-click{
             border: none;
      color: black;
     font-family: helv;
@@ -761,17 +761,37 @@ img {
     position: absolute;
     left: 65%;
     top: 90%;
-        }
+        }*/
 
-        .button-wrapper{
+       /* .button-wrapper{
             z-index: 4;
-        }
+        }*/
 
         .testimonial-card{
             position: absolute;
-            left: 181px;
-            width: 50%;
-            margin-top: 49vh;
+            left: 55%;
+            width: 50vw;
+            top: 67%;
+            /* margin-top: 49vh; */
+            z-index: 2;
+        }
+
+        .testimonial-link{
+            text-decoration: none;
+            display: inline-block;
+           /* width: 200px;*/
+            padding: 6px 13px;
+            text-align: center;
+            color: black;
+            /*font-weight: bolder;*/
+            /*text-transform: uppercase;*/
+            /*border: 1px solid #e67e33;*/
+            background-color: yellow;
+            /*border-radius: 8px;*/
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
 
 
