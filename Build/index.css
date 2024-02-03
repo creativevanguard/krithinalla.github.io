@@ -1458,6 +1458,15 @@ img {
         }
         /*---------------------------------- Media Queries for Fifth Section ----------------------*/
         
+
+        /* Pink section font - responsive */
+        @media (max-width:420px) {
+            .specs {
+                font-size: 130%;
+            }
+        }
+       /*---------------------------------*/
+       
         @media (min-width:600px) {
             #fifth-div {
                 height: 92vh;
