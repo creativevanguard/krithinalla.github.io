@@ -1408,9 +1408,6 @@ img {
             top: 50%;
             width: 45%;
             margin-right: 5vw;
-            animation: fade-out linear forwards;
-            animation-timeline: view();
-            animation-range: 437px 501px;
             display: block;
         }
         
@@ -1421,17 +1418,7 @@ img {
             top: 100%;
             width: 50%;
             /* margin-right: 5vw; */
-            transform: scaleX(-1);
-            animation: fade-out linear forwards;
-            animation-timeline: view();
-            animation-range: 25px 433px;
             display: block;
-        }
-        
-        @keyframes fade-out {
-            to {
-                opacity: 0;
-            }
         }
         
         .specs {
@@ -1466,7 +1453,7 @@ img {
             }
         }
        /*---------------------------------*/
-       
+
         @media (min-width:600px) {
             #fifth-div {
                 height: 92vh;
