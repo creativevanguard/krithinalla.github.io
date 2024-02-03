@@ -10,11 +10,12 @@
         }
         
         .vimana {
-            width: 40%;
+            width: 50%;
             position: fixed;
-            left: 30%;
+            left: 25%;
             top: 17%;
             cursor: move;
+            z-index: 9999;
         }
 
         [data-scroll] {
@@ -812,12 +813,13 @@ img {
 
        #Testimonial-Card{
         position: absolute;
-    left: 46%;
-    width: 50%;
-    /* top: -19vh; */
-    top: 68%;
+        left: 40%;
+        width: 50%;
+        /* top: -19vh; */
+        top: 65%;
+        /* margin-top
     /* margin-top: 68vh; */
-         z-index: 2;
+         z-index: 9999;
         display: none;
        
     }
@@ -825,7 +827,7 @@ img {
         .button-wrapper{
             display: block;
     position: absolute;
-    top: 94%;
+    top: 90%;
     left: 65%;
         }
         
@@ -1533,11 +1535,9 @@ img {
         
         .frame1 {
             position: absolute;
-            right: 0;
-            width: 74vw;
-            margin-right: 14vw;
-            margin-top: 6vh;
-            z-index: 1;
+            right: 15%;
+            top: 10%;
+            width: 70%;
         }
         
         .scloud {
@@ -1562,8 +1562,8 @@ img {
         
         .bigcloud {
             position: absolute;
-            width: 60vw;
-            margin-top: 220vh;
+            width: 60%;
+            top: 65%;
         }
         
         .col:hover {
@@ -1574,8 +1574,12 @@ img {
         
         .next {
             position: absolute;
-            right: 70px;
-            margin-top: 85vh;
+            right: 15%;
+            top: 85%;
+        }   
+
+        .next h2{
+            font-size: 35px;
         }
         
         .nextpage:hover {
@@ -7251,14 +7255,7 @@ body {
     }
 }
 
-.rotation {
-    cursor: move;
-    margin: 0 auto;
-}
 
-.container button {
-    margin-top: 20px;
-}
 
 
 /* background: url("../prlx/blue-sky.jpeg"); */
@@ -7290,6 +7287,15 @@ body {
             font-family: helv;
             color: #E7D721;
             font-size: 23px;
+        }
+
+        .rotation {
+            cursor: move;
+            margin: 0 auto;
+        }
+        
+        .container button {
+            margin-top: 20px;
         }
         /*
 .testi {
