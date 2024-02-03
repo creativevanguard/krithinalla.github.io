@@ -1243,63 +1243,58 @@ img {
         
         .sat {
             position: absolute;
-            top: 16%;
-            max-width: 85%;
-            right: -20%;
+    top: 53%;
+    max-width: 87%;
+    right: -28%;
         }
         
         .amul {
-            max-width: 67vw;
-            position: absolute;
-            left: 0;
-            margin-top: -30vh;
+            max-width: 55%;
+    position: absolute;
+    left: 0;
+    bottom: 115%;
         }
         
         .dumptrash {
-            max-width: 344vw;
-            position: absolute;
-            margin-top: 110vh;
+            max-width: 300%;
+    display: block;
+    left: -30%;
+    top: 75%;
+    position: absolute;
         }
         
         .bottle {
-            max-width: 59vw;
-            position: absolute;
-            margin-top: 130vh;
-            right: -1vw;
-            z-index: -1;
+            max-width: 50%;
+    position: absolute;
+    /* margin-top: 130vh; */
+    top: 107%;
+    left: 50%;
+    z-index: -2;
         }
         
         .man {
-            max-width: 74vw;
-            position: absolute;
-            margin-top: 34vh;
+            max-width: 60%;
+    top: 20%;
+    position: absolute;
         }
         
         .limit {
-            /* position: absolute;
-    right: 0;
-    width: 30vw;
-    margin-top: 70vh;
-    margin-right: -3vw;*/
             text-align: center;
-            line-height: 5px;
-            position: absolute;
-            right: 0;
-            width: 100%;
-            margin-top: 56vh;
-            margin-right: -19vw;
-            font-size: 21px;
+    line-height: 5px;
+    position: absolute;
+    /* right: 0; */
+    width: 100%;
+    left: 20%;
+    top: 31%;
+    /* margin-top: 56vh; */
+    /* margin-right: -19vw; */
+    font-size: 21px;
         }
         
         .ar {
-            position: absolute;
-            right: 0;
-            width: 76vw;
-            margin-top: 64vh;
-            margin-right: 12vw;
-            font-family: helv;
-            color: #E7D721;
-            font-size: 21px;
+            
+        font-family: helv;
+        color: #E7D721;
         }
         
         .ar:hover {
@@ -1313,11 +1308,10 @@ img {
         
         .second-click-link {
             font-size: 17px;
-            position: absolute;
-            right: 0;
-            width: 54vw;
-            margin-top: -3vh;
-            margin-right: -8vw;
+    position: absolute;
+    top: 36%;
+    width: 55%;
+    left: 45%;
         }
         /*---------------------------------- Media Queries for Fourth Section ----------------------*/
         
@@ -1381,12 +1375,7 @@ img {
             }
         }
 
-        .sat {
-            max-width: 18vw;
-            margin-top: 38vh;
-            margin-left: 81vw;
-        }
-        /*---------------------------------- End of Media Queries for Fourth Section ----------------------*/
+    /*-------------------------------- End of Media Queries for Fourth Section ----------------------*/
         /*-------------------------- Fifth Section ------------------------------*/
         
         #fifth-div {
