@@ -204,7 +204,7 @@
                     <div class="text-box-4">
                         <h2 data-rellax-zindex="4" data-rellax-speed="4">Never Again will<br>we make the <br>same mistake</h2>
                         <P id="trashtxt">Our greed forced us to say goodbye to our mother planet. Kilotons of filth, nuclear waste, garbage, and rotting ate away the life on Earth.
-                        </P>
+                        </P>    
                     </div>
                     <img src="prlx_images/satellite.png" class="sat rellax" data-rellax-speed="2" >
                     <img src="prlx_images/amul.png" class="amul rellax" data-rellax-speed="-2">
@@ -226,8 +226,8 @@
             <!--5th section with pink background -->
             <div class="rellax" data-rellax-speed="-1.1" data-rellax-zindex="2" id="fifth-div">
                 <!-- <img src="prlx_images/leftv.png" class="vim1 rellax" data-rellax-speed="4" data-rellax-zindex="4">-->
-                <img src="prlx_images/rightv.png" class="vim2 rellax" data-rellax-speed="1" data-rellax-zindex="4">
-                <img src="prlx_images/rightv.png" class="vim3 rellax" data-rellax-speed="1" data-rellax-zindex="4">
+                <img src="prlx_images/leftv.png" class="vim2 rellax" data-rellax-speed="1" data-rellax-zindex="4" data-scroll>
+                <img src="prlx_images/rightv.png" class="vim3 rellax" data-rellax-speed="1" data-rellax-zindex="4" data-scroll>
                 <h1 class="specs"><span class="lineht">Padmini Packers and Movers take immense pride in our supreme intergalactic
           travel technology.
           With the most qualified research team at hand, our Vimanas have consistently won the Annual Nebula Space
@@ -345,11 +345,6 @@
         });
     </script>-->
     <script>
-        ScrollOut({
-  /* options */
-});
-    </script>
-    <script>
         // Init Rellax
         var rellax = new Rellax('.rellax', {
             // Destroy and create again parallax with previous settings
@@ -361,6 +356,7 @@
             horizontal: false
         });
         //rellax.refresh();
+        ScrollOut();
     </script>
 
 
