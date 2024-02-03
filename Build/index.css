@@ -651,10 +651,21 @@ img {
         @media (min-width:600px) {
             #text-box-1 {
                 Width: 69%;
-                margin-top: 7vh;
+                position: absolute;
+                top: 5%;
+            }
+            #book h2 {
+                font-size: 129px;
+                margin-bottom: 120px;
+                line-height: 107px;
+            }
+
+            #text-box-1 h2{
+                font-size: 35px;
             }
             #text-box-1 p {
-                width: 40%;
+                width: 50%;
+                font-size: 18px;
             }
         }
         /*---------------------------------------------------------------------*/
@@ -771,45 +782,6 @@ img {
             margin-top: 56vh;
         }
 
-        /*.testimonial-click{
-            border: none;
-     color: black;
-    font-family: helv;
-    font-size: 12px;
-    background-color: yellow;
-    padding: 6px 13px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-    z-index: 2;
-    position: absolute;
-    left: 65%;
-    top: 90%;
-        }*/
-
-       /* .button-wrapper{
-            z-index: 4;
-        }*/
-
-        /*#btnID{
-        border: none;
-        color: black;
-        font-family: helv;
-        font-size: 12px;
-        background-color: yellow;
-        padding: 6px 13px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        position: relative;
-        cursor: pointer;
-        z-index: 2;
-        position: absolute;
-        left: 65%;
-        top: 90%;   
-        }*/
 
        #Testimonial-Card{
         position: absolute;
@@ -825,45 +797,29 @@ img {
     }
 
         .button-wrapper{
-            display: block;
-    position: absolute;
-    top: 90%;
-    left: 65%;
+        display: block;
+        position: absolute;
+        top: 90%;
+        left: 65%;
         }
         
 
         #testimonial-link{
-        /*text-decoration: none;
-        display: inline-block;
-        width: 200px; 
-         padding: 6px 13px;
-        text-align: center;
-        color: black;
-        font-family: 'helv';
-        font-weight: bolder; 
-        text-transform: uppercase; 
-        background-color: yellow;
-        border-radius: 8px;
-        position: absolute;
-        top: 92%;
-        left: 60%;
-        transform: translate(80%, 400%); 
-        z-index: 2;*/
         border: none;
-     color: black;
-    font-family: helv;
-    font-size: 12px;
-    background-color: yellow;
-    padding: 6px 13px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-    z-index: 2;
-    position: absolute;
-    left: 65%;
-    top: 90%;
+        color: black;
+        font-family: helv;
+        font-size: 12px;
+        background-color: yellow;
+        padding: 6px 13px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        z-index: 2;
+        position: absolute;
+        left: 65%;
+        top: 90%;
         }
 
 
@@ -875,13 +831,19 @@ img {
                 margin-top: 75vh;
             }
             #call {
-                margin-top: 25vh;
-                width: 29%;
+                position: absolute;
+                top: 25%;
+                /* margin-top: 25vh; */
+                width: 40%;
             }
             #shipframe {
-                margin-top: 11vh;
-                width: 37%;
-                margin-left: 58%;
+                position: absolute;
+                display: block;
+                top: 0%;
+                /* right: -14%; */
+                left: 45%;
+                /* margin-top: 11vh; */
+                 width: 48%;
             }
             #testimonial {
                 left: 462px;
@@ -889,15 +851,51 @@ img {
                 margin-top: 42vh;
             }
             #cl {
-                right: -12vw;
-                margin-top: 42vh;
-                width: 53vw;
+                right: -9%;
+                /* margin-top: 42vh; */
+                width: 55%;
+                bottom: 52%;
             }
             #lady {
-                right: -3px;
-                width: 39%;
-                margin-top: 53vh;
+                position: absolute;
+                /* top: -15%; */
+                bottom: 7%;
+                right: 0%;
+                width: 50%;
             }
+            .button-wrapper {
+                display: block;
+                position: absolute;
+                top: 90%;
+                left: 65%;
+            }
+            #testimonial-link{
+                font-size: 23px;
+                padding: 14px 25px;
+        }
+
+            #Testimonial-Card{
+                left: 45%;
+                width: 50%;
+                top: 50%;
+        }
+
+            #second-text-box {
+                display: block;
+                position: absolute;
+                left: 5%;
+                top: -5%;
+        }
+
+            #second-text-box h2{
+                font-size: 35px;
+                width: 45%;
+            }
+
+            #second-text-box p{
+                font-size: 18px;
+            }
+            
         }
 
          /*---------------------------------------------------------------------*/
@@ -1329,38 +1327,42 @@ img {
         
         @media (min-width:600px) {
             .text-box-4 {
-                margin-top: 8vh;
-                margin-left: 3vw;
+                position: absolute;
+                width: 50%;
+                top: 5%;
             }
+            .text-box-4 h2{
+                font-size: 35px;
+            }
+
             #trashtxt {
                 width: 39vw;
-                font-size: 12px;
+                font-size: 18px;
             }
             .sat {
-                max-width: 33vw;
-                margin-top: 50vh;
-                margin-left: 62vw;
+                max-width: 80%;
+                top: 30%;
+                right: -20%;
             }
             .amul {
                 max-width: 49vw;
-                left: 29px;
-                margin-top: -10vh;
+                left: 5%;
+                top: -15%;
             }
             .limit {
+                position: absolute;
                 line-height: 8px;
-                right: -53px;
+                left: 25%;
                 width: 100%;
-                margin-top: 45vh;
-                margin-right: -19vw;
+                top: 40%;
                 font-size: 32px;
             }
             .second-click-link {
                 font-size: 21px;
                 position: absolute;
-                right: 0;
-                width: 40vw;
-                margin-top: -12vh;
-                margin-right: -8vw;
+                left: 56%;
+                width: 30%;
+                top: 45%;
             }
             .fourlimit {
                 font-size: 95px;
@@ -1371,19 +1373,21 @@ img {
                 width: 52%;
             }
             .bottle {
-                max-width: 59vw;
-                margin-top: 110vh;
-                right: -1vw;
+                width: 50%;
+                top: 87%;
+                right: 0%;
             }
             .man {
-                max-width: 50vw;
+                max-width: 50%;
                 position: absolute;
-                margin-top: 45vh;
+                top: 38%;
             }
             .dumptrash {
-                max-width: 344vw;
-                position: absolute;
-                margin-top: 105vh;
+                width: 230%;
+                /* right: 10%; */
+                /* bottom: 10%; */
+                top: 68%;
+                left: 0%;
             }
         }
 
@@ -1462,27 +1466,13 @@ img {
             }
             .vim2 {
                 right: 0;
-                margin-top: 79vh;
-                width: 32%;
-                margin-right: 5vw;
-                animation: fade-out linear forwards;
-                animation-timeline: view();
-                animation-range: 395px 483px;
+                top: 42%;
+                width: 35%;
             }
             .vim3 {
-                right: 52vw;
-                margin-top: 106vh;
+                right: 50%;
+                top: 90%;
                 width: 35%;
-                margin-right: 5vw;
-                transform: scaleX(-1);
-                animation: fade-out linear forwards;
-                animation-timeline: view();
-                animation-range: 58px 303px;
-            }
-            @keyframes fade-out {
-                to {
-                    opacity: 0;
-                }
             }
             .specs {
                 font-size: 38px;
@@ -1654,22 +1644,25 @@ img {
             #sixth-div {
                 height: 130vh;
             }
+            .boxhead{
+                position: absolute;
+                top: 2%;
+                left: 0%;
+            }
             .head {
-                left: -2vw;
-                width: 75vw;
-                margin-top: -59vh;
-                font-size: 28px;
+                font-family: 'helv';
+                position: relative;
+                font-size: 32px;
             }
             .frame {
-                left: 311px;
-                margin-top: -22vh;
-                width: 65vw;
+                left: 35%;
+                top: 9%;
+                width: 65%;
             }
             .frame1 {
-                right: 0;
-                width: 62vw;
-                margin-right: 21vw;
-                margin-top: 41vh;
+                right: 18%;
+                width: 65%;
+                top: 25%;
             }
             .scloud {
                 left: 229px;
@@ -1690,10 +1683,10 @@ img {
                 margin-left: 60vw;
             }
             #humtxt {
-                width: 32vw;
-                font-size: 14px;
-                position: relative;
-                right: 53vw;
+                width: 80%;
+                position: absolute;
+                font-size: 18px;
+                right: 110%;
             }
             .sixth-title {
                 font-size: 28px;
@@ -1703,11 +1696,13 @@ img {
             }
             .nextpage {
                 position: absolute;
-                right: 25vw;
-                margin-top: 28vh;
-                width: 34vw;
-                font-size: 52px;
+                width: 56%;
             }
+            .next{
+                position: absolute;
+                right: 5%;
+                top: 86%;
+                width: 65%;
         }
         /*---------------------------------- Media Queries for Fifth Section ----------------------*/
         /*-----------------------------------------------------------------------------------------------------------------
