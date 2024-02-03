@@ -248,6 +248,7 @@
                 <img src="prlx_images/leftframe.png" class="frame rellax" data-rellax-speed="-1" data-rellax-zindex="4">
                 <img src="prlx_images/rightframe.png" class="frame1 rellax" data-rellax-speed="-1" data-rellax-zindex="4">
                 <img src="prlx_images/bigcloud.png" class="bigcloud rellax" data-rellax-speed="1">
+                <img src="prlx_images/bigcloud.png" class="bigcloud_2 rellax" data-rellax-speed="1">
                 <div class="boxhum">
                     <h2 class="sixth-title" data-rellax-zindex="4" data-rellax-speed="4">Unlike Anything We Remeber From Earth</h2>
                     <P id="humtxt">We have come a long way from our first moving assignment. 400 years ago, our first goods carrier 'Mohini Amma', purchased by our founder with her saved hourly wages, completed its first trip from Kovaipudur to Annaikati. Ever since
@@ -353,6 +354,9 @@
             horizontal: false
         });
         rellax.refresh();
+        setTimeout(function(){
+    location.reload();
+}, 5000); // 3000 milliseconds = 3 seconds
         ScrollOut();
     </script>
 
