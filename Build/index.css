@@ -953,6 +953,7 @@ img {
                 width: 18%;
             }
             #testimonial {
+
                 display: none;
             }
             #call {
@@ -1578,10 +1579,13 @@ img {
         
         @media (min-width:1688px) {
             .fifth-div {
-                height: 100vh;
+                height: 110vh;
+            }
+            .smallt{
+                font-size: 25px;
             }
             .specs {
-                font-size: 50px;
+                font-size: 45px;
             }
             .bigtt {
                 font-size: 75px;
