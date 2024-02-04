@@ -4,14 +4,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,500;1,500&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
 </head>
 <title>Book Vimana</title>
-<link rel="stylesheet" type ="text/css" href="test.css"/>
+<link rel="stylesheet" type ="text/css" href="payment.css"/>
 
 <body>
-   
-<div class="container">
 
+<div class="main-wrapper"> 
+<div class="container">
         <div class="row">
-            <div class="pix">
+          <!--<div class="pix">-->
             <div class="rotation" data-ps-z-index="1">
               <img src="BottomView/BV-1.png">
               <img src="BottomView/BV-2.png">
@@ -44,7 +44,7 @@
               <img src="BottomView/BV-29.png">
               <img src="BottomView/BV-30.png">
             </div> 
-        </div>
+       <!---</div>--> 
       </div>
     
     <div class="content">
@@ -71,18 +71,18 @@
         <option value="four">4</option>
         </select>
         <br>
-        <h4>Use your device to scan the Vimana on the left to find out how many you might need</h4>
+        <h4 class="for-mobile-tab">Use your device to scan the Vimana on the top to find out how many you might need</h4>
         <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
         <label class="tc" for="TC"> The amount will be deducted directly from your ID.</label><br>
         <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
         <label class="tc" for="TC">Your location will be made accessible to Padmini Packers and Movers</label><br>
         <!-- <input type="submit" value="Submit"> -->
-        <button class="decbutton" onclick="alert('Thank you for your order\nYour vimana will be at your door soon.')">Book</button>
+        <button class="decbutton" onclick="alert('Thank you for your order\nYour vimana will be at your door soon.')">Book Now!</button>
     </form>
-
-    </div>
-
 </div>
+</div>
+</div>
+
 
 <script src="build/index.js"></script>
 </body>
