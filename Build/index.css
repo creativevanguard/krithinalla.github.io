@@ -35,7 +35,7 @@
         
         
         [data-scroll] {
-            transition: opacity 2s;
+            transition: opacity 5s;
         }
         
         [data-scroll="in"] {
@@ -575,6 +575,10 @@
             margin: 20px;
             width: 30vw;
         }
+
+        .bigcloud1{
+            display: none;
+        }
         
         .bigcloud2 {
             position: absolute;
@@ -606,6 +610,9 @@
         /*Tab Size*/
         
         @media (min-width:600px) {
+            .bigcloud1{
+                display: none;
+            }
             #text-box-1 {
                 Width: 69%;
                 position: absolute;
@@ -630,6 +637,10 @@
         /*Desktop Size*/
         
         @media (min-width:1688px) {
+            #blprint {
+                right: 4%;
+                width: 25vw;
+            }
             #text-box-1 {
                 Width: 35%;
                 top: 10%;
@@ -646,9 +657,16 @@
                 font-size: 150px;
             }
             .bigcloud2 {
+                display: none;
                 position: absolute;
                 width: 50%;
                 /* margin-top: 70vh; */
+                top: 46%;
+                left: 47%;
+            }
+            .bigcloud1 {
+                position: absolute;
+                width: 50%;
                 top: 46%;
                 left: 47%;
             }
@@ -920,9 +938,10 @@
                 z-index: 2;
                 }
             #cl {
-                right: -9%;
+                display: none;
+               /* right: -9%;
                 bottom: 78%;
-                width: 49%;
+                width: 49%;*/
             }
             #lady {
                 bottom: 0%;
@@ -1883,6 +1902,3 @@
             margin: 0 auto;
         }
         
-        .container button {
-            margin-top: 20px;
-        }
