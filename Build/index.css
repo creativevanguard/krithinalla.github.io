@@ -13,7 +13,7 @@
             width: 50%;
             position: fixed;
             left: 25%;
-            top: 17%;
+            top: 30%;
             cursor: move;
             z-index: 9999;
         }
@@ -576,7 +576,11 @@
         }
 
         .bigcloud1{
-            display: none;
+            display: block;
+            position: absolute;
+            width: 80%;
+            top: 48%;
+            left: 25%;
         }
         
         .bigcloud2 {
@@ -725,7 +729,7 @@
         #call {
             position: absolute;
             left: 5%;
-            top: 16%;
+            top: 30%;
             /* margin-top: 14vh; */
             width: 42%;
         }

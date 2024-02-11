@@ -28,8 +28,8 @@
                         <P id="special">5 0r 25 light-years away? Move with ease to any galactic longitude and latitude carrying anything as small as your backyard coconut tree to anything as large as your pride.</P>
                     </div>
                     <!--<img src="prlx_images/bigcloud.png" class="bigcloud2 rellax" data-rellax-speed="-2" data-rellax-zindex="4">-->
-                    <img src="prlx_images/bigcloud.png" class="bigcloud1" data-rellax-speed="-2" data-rellax-zindex="10">
-                    <img src="prlx_images/blueprint.png" id="blprint" class="rellax" data-rellax-speed="-3" data-rellax-zindex="2">
+                    <img src="prlx_images/landingcloud.png" class="bigcloud1" data-rellax-speed="-2" data-rellax-mobile-speed="-2" data-rellax-zindex="10">
+                    <img src="prlx_images/blueprint.png" id="blprint" class="rellax" data-rellax-speed="-3" data-rellax-mobile-speed="3" data-rellax-zindex="2">
                 </div>
             </div>
             <a href="payment.html" id="book" data-rellax-zindex="2">
@@ -49,7 +49,7 @@
                     <!--<a href="#" onclick="show()" id="testimonial-link" rel="nofollow">Testimonial</a>-->
                 </div>
                 <!--<button type="button" onclick="show()" id="btniD">Testimonial</button>-->
-                <img src="prlx_images/ship.png" id="shipframe" class="ship rellax" data-rellax-speed="1" data-rellax-zindex="2">
+                <img src="prlx_images/ship.png" id="shipframe" class="ship rellax" data-rellax-speed="1" data-rellax-mobile-speed="0.8" data-rellax-zindex="2">
                 <img src="prlx_images/marigold.png" id="marigold" class="gold rellax" data-rellax-speed="0" data-rellax-zindex="0">
                 <img src="prlx_images/sec2land.png" id="land" class="land rellax" data-rellax-speed="-1" data-rellax-zindex="-1">
                 <!--<img src="prlx_images/testimom.JPG" id="testimonial" class="testi rellax" data-rellax-speed="2" data-rellax-zindex="2">-->
@@ -345,6 +345,7 @@ s
         // Init Rellax
         var rellax = new Rellax('.rellax', {
             // Destroy and create again parallax with previous settings
+            breakpoints:[400, 768, 1201],
             center: false,
             wrapper: null,
             round: true,
