@@ -1415,7 +1415,7 @@
         
         @media (min-width:1688px) {
             #fourth-div {
-                height: 100vh;
+                height: 112vh;
                 margin-bottom: 0%;  
             }
             #trashtxt {
@@ -1492,7 +1492,7 @@
             }
             .bottle {
                 max-width: 30%;
-                top: 130%;
+                top: 120%;
                 left: 65%;
                 z-index: 1;
             }
