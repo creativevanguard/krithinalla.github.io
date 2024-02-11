@@ -33,7 +33,7 @@ html {
 .decbutton {
     border: none;
     padding: 20px 50px;
-    background-color: yellow;
+    background-color: #E7D721;
     font-family: Helvetica, sans-serif;
     font-style: italic;
     font-size: 35px;
@@ -97,7 +97,7 @@ html {
 }
 
 label {
-    color: yellow;
+    color: #E7D721;
 }
 
 .flo {
@@ -175,27 +175,38 @@ select {
 
 @media (min-width:1688px) {
     .container {
-        display: flex;
+        /*display: flex;
         flex-direction: row;
         margin-right: auto;
         margin-left: auto;
         padding-left: 15px;
         padding-right: 15px;
-        width: 80%;
+        width: 80%;*/
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-51%, -50%);
+        display: flex;
+        width: 85%;
     }
     .desktop {
         display: block;
-        color: yellow;
+        color: #E7D721;
         font-size: 18px;
         margin-top: 1em;
         margin-bottom: 1em;
+        width: 75%;
     }
     .content {
-        margin-top: 12%;
+       /* margin-top: 12%;*/
+       width: 80%;
     }
     .row {
-        width: 70%;
-        padding-top: 15%;
+        width: 100%;
+        /*padding-top: 15%;*/
+    }
+    input[type=text], select{
+        width: 90%;
     }
 }
 
@@ -636,7 +647,7 @@ hr {
 h1,
 h2,
 h3 {
-    color: yellow;
+    color: #E7D721;
     font-family: helv;
     font-weight: 500;
     line-height: 1.1;
