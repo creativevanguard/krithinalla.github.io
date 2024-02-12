@@ -915,6 +915,63 @@
         /*---------------------________------------______-------______-----________--________-------*/
         /*---------------------________------------______-------______-----________--________-------*/
         /*Desktop Size*/
+        @media (min-width:900){
+            #shipframe {
+                position: absolute;
+                display: block;
+                top: -12%;
+                /* right: -14%; */
+                left: 46%;
+                /* margin-top: 11vh; */
+                width: 39%;
+            }
+            #marigold {
+                position: absolute;
+                left: -107px;
+                width: 36%;
+            }
+            #land {
+                position: absolute;
+                margin-top: 36vh;
+                left: 0%;
+                width: 200%;
+            }
+            #call {
+                position: absolute;
+                top: 10%;
+                /* margin-top: 25vh; */
+                width: 29%;
+            }
+            #lady {
+                position: absolute;
+                /* top: -15%; */
+                bottom: 23%;
+                right: 0%;
+                width: 40%;
+            }
+            #cl {
+                right: -20%;
+                /* margin-top: 42vh; */
+                width: 65%;
+                bottom: 62%;
+            }
+            #second-text-box {
+                display: block;
+                position: absolute;
+                left: 5%;
+                top: -21%;
+            }
+            #second-text-box h2 {
+                font-size: 35px;
+                width: 45%;
+            }
+            .button-wrapper {
+                display: block;
+                position: absolute;
+                top: 80%;
+                left: 65%;
+            }
+        }
        
         @media (min-width:1120px){
             #shipframe {
@@ -1500,6 +1557,61 @@
         /*---------------------________------------______-------______-----________--________-------*/
         /*Desktop Size*/
 
+        @media (min-width:900){
+            .sat {
+                max-width: 62%;
+                top: 30%;
+                right: -15%;
+            }
+            .amul {
+                max-width: 49vw;
+                left: 5%;
+                top: -30%;
+            }
+            .dumptrash {
+                width: 126%;
+                /* right: 10%; */
+                /* bottom: 10%; */
+                top: 86%;
+                left: 0%;
+            }
+            .man {
+                max-width: 40%;
+                position: absolute;
+                top: 25%;
+            }
+            .bottle {
+                width: 40%;
+                top: 103%;
+                margin-left: 14%;
+                /* right: 21%; */
+                /* position: absolute; */
+            }
+            .sub-text-wrapper {
+                display: block;
+                position: absolute;
+                top: 48%;
+                left: 67%;
+            }
+            .limit-2 h2{
+                font-family: helv;
+                color: #E7D721;
+                font-size: 32px;
+            }
+            .four {
+                font-size: 72px;
+                line-height: 62px;
+            }
+            .second-click-link {
+                font-size: 21px;
+                position: absolute;
+                left: 69%;
+                width: 30%;
+                top: 63%;
+            }
+
+        }
+
         @media (min-width:1120px){
         .sub-text-wrapper {
             display: block;
@@ -1721,6 +1833,14 @@
         /*---------------------________------------______-------______-----________--________-------*/
         /*Desktop Size*/
         
+        @media (min-width:900){
+            .specs {
+                font-size: 30px;
+                margin-inline: 3%;
+                padding-top: 20px;
+            }
+        }
+
         @media (min-width:1220px) {
             #fifth-div {
                 height: 100vh;
@@ -1989,6 +2109,61 @@
         /*---------------------________------------______-------______-----________--________-------*/
         /*Desktop Size*/
 
+        @media (min-width:900){
+            .frame {
+                left: 2%;
+                top: 37%;
+                width: 43%;
+            }
+            .sixth-title {
+                font-size: 28px;
+                right: 7vw;
+                width: 43vw;
+                margin-top: 2vh;
+            }
+            #humtxt {
+                width: 90%;
+                position: absolute;
+                font-size: 15px;
+                right: 25%;
+            }
+            .boxhead {
+                position: absolute;
+                top: 2%;
+                left: 0%;
+            }
+            .head {
+                font-family: 'helv';
+                position: relative;
+                font-size: 23px;
+                width: 38vw;
+                margin-top: -43%;
+                /* top: 50%; */
+            }
+            .next {
+                position: absolute;
+                right: 15%;
+                top: 88%;
+                width: 65%;
+            }
+            .nextpage {
+                position: absolute;
+                width: 95%;
+                right: 26%;
+                bottom: 5%;
+                /* left: -8%; */
+            }
+            .bigcloud {
+                width: 39%;
+                top: 76%;
+                right: 68%;
+            }
+            .bigcloud_2 {
+                width: 54%;
+                top: 105%;
+                right: 35%;
+            }
+        }
         @media (min-width:1120px){
             .head {
                 font-family: 'helv';
