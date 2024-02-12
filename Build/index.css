@@ -2041,6 +2041,7 @@
                 font-size: 35px;
                 width: 32%;
                 left: 0%;
+                margin-top: -39%;
             }
             .sixth-title {
                 position: absolute;
@@ -2069,7 +2070,7 @@
             }
             .frame {
                 left: 2%;
-                top: 44%;
+                top: 31%;
                 width: 35%;
             }
             .next {
@@ -2089,7 +2090,7 @@
             }
             .bigcloud {
                 width: 36%;
-                top: 78%;
+                top: 69%;
                 right: 69%;
             }
         }
