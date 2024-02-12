@@ -18,7 +18,7 @@
             z-index: 9999;
         }
         
-        @media (min-width:1688px) {
+        @media (min-width:1220px) {
             .vimana {
                 width: 35%;
                 position: fixed;
