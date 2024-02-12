@@ -638,6 +638,12 @@
         /*---------------------________------------______-------______-----________--________-------*/
         /*---------------------------------------------------------------------*/
         /*Desktop Size*/
+
+        @media (min-width:1120px) {
+            #text-box-1{
+                width: 42%;
+            }
+        }
         
         @media (min-width:1688px) {
             #blprint {
@@ -895,7 +901,55 @@
         /*---------------------________------------______-------______-----________--________-------*/
         /*---------------------________------------______-------______-----________--________-------*/
         /*Desktop Size*/
-        
+       
+        @media (min-width:1120px){
+            #shipframe {
+                position: absolute;
+                display: block;
+                top: -9%;
+                /* right: -14%; */
+                left: 45%;
+                /* margin-top: 11vh; */
+                width: 34%;
+            }
+            #marigold {
+                position: absolute;
+                left: -103px;
+                width: 34%;
+            }
+            #call {
+                position: absolute;
+                top: 21%;
+                /* margin-top: 25vh; */
+                width: 25%;
+            }
+            #lady {
+                position: absolute;
+                /* top: -15%; */
+                bottom: 7%;
+                right: 0%;
+                width: 50%;
+            }
+            #cl {
+                right: -9%;
+                /* margin-top: 42vh; */
+                width: 55%;
+                bottom: 82%;
+            }
+            #second-text-box {
+                display: block;
+                position: absolute;
+                left: 5%;
+                top: -12%;
+            }
+            .button-wrapper {
+                display: block;
+                position: absolute;
+                top: 80%;
+                left: 65%;
+            }
+        }
+
         @media (min-width:1688px) {
             #second-div {
                 max-height: 100vh;
@@ -1186,6 +1240,25 @@
         /*---------------------________------------______-------______-----________--________-------*/
         /*---------------------________------------______-------______-----________--________-------*/
         /*Desktop Size*/
+
+        @media (min-width:1120px){
+            .coordinates {
+                margin-top: -29vh;
+                max-width: 78%;
+                height: 67vh;
+                gap: 0.2rem;
+                position: absolute;
+                right: 5vw;
+            }
+            #planet-container {
+                display: grid;
+                gap: 9rem;
+                margin-top: 49vh;
+                max-width: 61%;
+                height: 78vh;
+            }
+
+        }
         
         @media (min-width:1688px) {
             #master-planet-container {
@@ -1412,6 +1485,44 @@
         /*---------------------________------------______-------______-----________--________-------*/
         /*---------------------________------------______-------______-----________--________-------*/
         /*Desktop Size*/
+
+        @media (min-width:1120px){
+        .sub-text-wrapper {
+            display: block;
+            position: absolute;
+            top: 31%;
+            left: 56%;
+            /* width: 30%; */
+        }
+        .limit-sep {
+            padding-left: 5px;
+            font-size: 40px;
+        }
+        .four {
+            font-size: 72px;
+            line-height: 51px;
+        }
+        .vimana-count {
+            padding-left: 5px;
+            font-size: 40px;
+        }
+        .sat {
+            max-width: 54%;
+            top: 22%;
+            right: -14%;
+        }
+        .bottle {
+            width: 50%;
+            top: 98%;
+            right: 0%;
+        }
+        .specs {
+            font-size: 40px;
+            margin-inline: 10px;
+            padding-top: 20px;
+        }
+        }
+
         
         @media (min-width:1688px) {
             #fourth-div {
@@ -1863,7 +1974,57 @@
         /*---------------------________------------______-------______-----________--________-------*/
         /*---------------------________------------______-------______-----________--________-------*/
         /*Desktop Size*/
-        
+
+        @media (min-width:1120px){
+            .head {
+                font-family: 'helv';
+                position: relative;
+                font-size: 26px;
+                width: 37vw;
+                margin-top: -65%;
+                /* top: 54%; */
+            }
+            .frame {
+                left: 0%;
+                top: 34%;
+                width: 42%;
+            }
+            .bigcloud {
+                width: 36%;
+                top: 71%;
+                right: 70%;
+            }
+            .next {
+                position: absolute;
+                right: 28%;
+                top: 70%;
+                width: 65%;
+            }
+            .sixth-title {
+                font-size: 28px;
+                right: 1vw;
+                width: 35vw;
+                margin-top: 5vh;
+            }
+            #humtxt {
+                width: 81%;
+                position: absolute;
+                font-size: 15px;
+                right: 19%;
+            }
+            .frame1 {
+                right: 8%;
+                width: 34%;
+                top: -43%;
+            }
+            .bigcloud_2 {
+                width: 54%;
+                top: 100%;
+                right: 35%;
+            }
+
+        }
+
         @media (min-width:1688px) {
             #sixth-div {
                 height: 100vh;
