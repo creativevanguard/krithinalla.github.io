@@ -741,7 +741,7 @@
         
         #land {
             position: absolute;
-            margin-top: 36vh;
+            margin-top: 40vh;
             left: -119%;
             width: 500%;
         }
@@ -915,7 +915,7 @@
         /*---------------------________------------______-------______-----________--________-------*/
         /*---------------------________------------______-------______-----________--________-------*/
         /*Desktop Size*/
-        @media (min-width:900){
+        @media (min-width:900px){
             #shipframe {
                 position: absolute;
                 display: block;
@@ -1557,7 +1557,7 @@
         /*---------------------________------------______-------______-----________--________-------*/
         /*Desktop Size*/
 
-        @media (min-width:900){
+        @media (min-width:900px){
             .sat {
                 max-width: 62%;
                 top: 30%;
@@ -1833,7 +1833,7 @@
         /*---------------------________------------______-------______-----________--________-------*/
         /*Desktop Size*/
         
-        @media (min-width:900){
+        @media (min-width:900px){
             .specs {
                 font-size: 30px;
                 margin-inline: 3%;
@@ -1944,7 +1944,7 @@
         .bigcloud_2 {
             position: absolute;
             width: 70%;
-            top: 115%;
+            top: 33%;
             left: 50%;
             z-index: -1;
         }
@@ -1952,7 +1952,7 @@
         .bigcloud {
             position: absolute;
             width: 60%;
-            top: 65%;
+            top: -10%;
         }
         
         .col:hover {
@@ -2109,7 +2109,7 @@
         /*---------------------________------------______-------______-----________--________-------*/
         /*Desktop Size*/
 
-        @media (min-width:900){
+        @media (min-width:900px){
             .frame {
                 left: 2%;
                 top: 37%;
