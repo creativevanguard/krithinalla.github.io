@@ -639,13 +639,27 @@
         /*---------------------------------------------------------------------*/
         /*Desktop Size*/
 
+        /*@media (max-width:1687px) {
+            #text-box-1{
+                width: 42%;
+            }
+        }*/
+
+
+
+
+
+
+
+
+
         @media (min-width:1120px) {
             #text-box-1{
                 width: 42%;
             }
         }
         
-        @media (min-width:1688px) {
+        @media (min-width:1220px) {
             #blprint {
                 right: 4%;
                 width: 25vw;
@@ -950,7 +964,7 @@
             }
         }
 
-        @media (min-width:1688px) {
+        @media (min-width:1220px) {
             #second-div {
                 max-height: 100vh;
             }
@@ -1260,7 +1274,7 @@
 
         }
         
-        @media (min-width:1688px) {
+        @media (min-width:1220px) {
             #master-planet-container {
                 margin-top: -10%;
             }
@@ -1524,7 +1538,7 @@
         }
 
         
-        @media (min-width:1688px) {
+        @media (min-width:1220px) {
             #fourth-div {
                 height: 112vh;
                 margin-bottom: 0%;  
@@ -1707,7 +1721,7 @@
         /*---------------------________------------______-------______-----________--________-------*/
         /*Desktop Size*/
         
-        @media (min-width:1688px) {
+        @media (min-width:1220px) {
             #fifth-div {
                 height: 100vh;
                 /*margin-top: 10%;*/
@@ -2025,7 +2039,7 @@
 
         }
 
-        @media (min-width:1688px) {
+        @media (min-width:1220px) {
             #sixth-div {
                 height: 100vh;
             }
