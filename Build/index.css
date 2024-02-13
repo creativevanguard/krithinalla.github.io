@@ -843,18 +843,30 @@
             }
             #call {
                 position: absolute;
-                top: 25%;
+                top: 17%;
                 /* margin-top: 25vh; */
-                width: 40%;
+                width: 30%;
             }
             #shipframe {
                 position: absolute;
                 display: block;
-                top: 0%;
+                /* top: 0%; */
                 /* right: -14%; */
+                margin-top: 25%;
                 left: 45%;
                 /* margin-top: 11vh; */
-                width: 48%;
+                width: 40vw;
+            }
+            #marigold {
+                position: absolute;
+                left: -172px;
+                width: 43%;
+            }
+            #land {
+                position: absolute;
+                margin-top: 31vh;
+                left: -119%;
+                width: 500%;
             }
             #ship_txt{
                 position: absolute;
@@ -873,9 +885,9 @@
             }
             #cl {
                 right: -9%;
-                /* margin-top: 42vh; */
-                width: 55%;
-                bottom: 52%;
+                margin-top: 9vh;
+                width: 54%;
+                /* bottom: 66%; */
             }
             #lady {
                 position: absolute;
@@ -906,14 +918,15 @@
                 display: block;
                 position: absolute;
                 left: 5%;
-                top: -5%;
+                /* font-size: 2vw; */
+                top: -15%;
             }
             #second-text-box h2 {
-                font-size: 35px;
+                font-size: 3.8vw;
                 width: 45%;
             }
             #second-text-box p {
-                font-size: 18px;
+                font-size: 2vw;
             }
         }
         /*---------------------------------------------------------------------*/
@@ -1057,11 +1070,11 @@
                 position: absolute;
                 top: 95%;
             }
-            #ds-cl-2nd{
+            #ds-cl-2nd {
                 display: block;
-                width: 62%;
+                width: 58%;
                 position: relative;
-                left: 50%;
+                left: 53%;
             }
             #marigold {
                 position: absolute;
@@ -1106,10 +1119,10 @@
                 width: 70vw;
             }
             #lady {
-                bottom: 0%;
-                right: 0px;
-                width: 35%;
-            }
+             bottom: 0%;
+            right: 0px;
+             width: 33%;
+            }   
             #land {
                 position: absolute;
                 top: 10%;
@@ -1846,7 +1859,7 @@
                 width: 35%;
             }
             .specs {
-                font-size: 38px;
+                font-size: 3.85vw;
                 margin-inline: 10px;
                 padding-top: 20px;
             }
@@ -2076,24 +2089,26 @@
             .head {
                 font-family: 'helv';
                 position: relative;
-                font-size: 26px;
-                width: 63vw;
-                ;
+                font-size: 2.5vw;
+                width: 40vw;
+                margin-top: -5vh;
+                /* top: 20%; */
+                /* margin-top: -7%; */
             }
             .frame {
-                left: 44%;
-                top: 18%;
-                width: 55%;
+                left: 4%;
+                top: 40%;
+                width: 45%;
             }
             .frame1 {
-                right: 25%;
-                width: 55%;
-                top: 25%;
+                right: 11%;
+                width: 42%;
+                top: -40%;
             }
             .bigcloud {
                 width: 54%;
-                top: 55%;
-                right: 35%;
+                top: 75%;
+                right: 55%;
             }
             .bigcloud_2 {
                 width: 54%;
@@ -2104,17 +2119,22 @@
                 position: absolute;
                 top: 1%;
             }
+            .boxhead {
+                position: absolute;
+                top: 2%;
+                left: 0%;
+            }
             #humtxt {
                 width: 80%;
                 position: absolute;
                 font-size: 15px;
-                right: 110%;
+                right: 44%;
             }
             .sixth-title {
                 font-size: 28px;
-                right: 53vw;
-                width: 60vw;
-                margin-top: 34vh;
+                right: 11vw;
+                width: 46vw;
+                margin-top: 10vh;
             }
             .nextpage {
                 position: absolute;
@@ -2122,8 +2142,8 @@
             }
             .next {
                 position: absolute;
-                right: 15%;
-                top: 88%;
+                right: 28%;
+                top: 80%;
                 width: 65%;
             }
             .next h2 {
@@ -2252,7 +2272,7 @@
             .boxhead {
                 position: absolute;
                 width: 94%;
-                top: 65%;
+                top: 42%;
                 left: 2%;
             }
             .head {
@@ -2294,7 +2314,7 @@
             .frame1 {
                 right: 5%;
                 width: 32%;
-                top: -60%;
+                top: -55%;
             }
             .frame {
                 left: 2%;
@@ -2303,9 +2323,13 @@
             }
             .next {
                 position: absolute;
-                left: 28%;
-                top: 90%;
+                left: 23%;
+                top: 80%;
                 width: 65%;
+            }
+            .nextpage {
+                position: absolute;
+                width: 95%;
             }
             .next h2 {
                 font-size: 86px;
