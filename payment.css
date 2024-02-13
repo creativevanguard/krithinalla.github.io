@@ -7,6 +7,12 @@ html {
     padding: 0;
 }
 
+h2{
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: 900;
+}
+
 .main-wrapper {
     background-image: url(prlx_images/bookbg.png);
     background-size: cover;
@@ -76,9 +82,9 @@ html {
 /*----------------------------------------Table Section---------------------------------------------------------*/
 
 .t1 {
-    font-family: Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 2em;
-    font-weight: 700;
+    font-weight: 900;
     font-style: italic;
     font-size: 50px;
 }
@@ -174,7 +180,7 @@ select {
 
 /*--------------------------------------------Desktop Size--------------------------------------------------------*/
 
-@media (min-width:1688px) {
+@media (min-width:1220px) {
     .container {
         /*display: flex;
         flex-direction: row;
