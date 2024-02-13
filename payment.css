@@ -8,8 +8,9 @@ html {
 }
 
 .main-wrapper {
-    background-image: url('prlx_images/bookbg.png');
+    background-image: url(prlx_images/bookbg.png);
     background-size: cover;
+    background-position: center;
     width: 100%;
     background-repeat: no-repeat;
     height: 100vh;
@@ -34,7 +35,7 @@ html {
     border: none;
     padding: 20px 50px;
     background-color: #E7D721;
-    font-family: Helvetica, sans-serif;
+    font-family: Roboto;
     font-style: italic;
     font-size: 35px;
     font-weight: 700;
