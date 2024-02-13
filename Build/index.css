@@ -17,6 +17,17 @@
             cursor: move;
             z-index: 9999;
         }
+        @media (min-width:600px){
+            .vimana {
+                width: 40%;
+                position: fixed;
+                left: 30%;
+                top: 30%;
+                /* transform: translate(-50%, -50%); */
+                cursor: move;
+                z-index: 9999;
+            }
+        }
         
         @media (min-width:1220px) {
             .vimana {
@@ -1873,7 +1884,7 @@
         
         @media (min-width:900px){
             .specs {
-                font-size: 30px;
+                font-size: 3vw;
                 margin-inline: 3%;
                 padding-top: 20px;
             }
