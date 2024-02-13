@@ -1850,7 +1850,7 @@
                 font-size: 25px;
             }
             .specs {
-                font-size: 52px;
+                font-size: 47.5px;
             }
             .bigtt {
                 font-size: 75px;
@@ -2264,8 +2264,8 @@
             }
             .next {
                 position: absolute;
-                right: 28%;
-                top: 80%;
+                left: 28%;
+                top: 90%;
                 width: 65%;
             }
             .next h2 {
