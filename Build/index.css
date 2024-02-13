@@ -1104,16 +1104,16 @@
             #shipframe {
                 top: 2%;
                 z-index: -1;
-                width: 30%;
+                width: 22vw;
                 left: 58%;
             }
             #ship_txt{
                 position: absolute;
-                font-size: 55px;
+                font-size: 30px;
                 font-family: 'Sorts Mill Goudy', serif;
                 color: #E7D721;
-                top: 30%;
-                left: 65%;
+                top: 37%;
+                left: 61%;
                 width: 10%;
                 z-index: 2;
                 }
@@ -1155,6 +1155,7 @@
             }
             #second-text-box p {
                 width: 50%;
+                font-size: 1vw;
             }
         }
         /*---------------------------------- End of Media Queries for Second Section ----------------------*/
