@@ -1102,7 +1102,7 @@
                 left: 12%;
             }
             #shipframe {
-                top: 2%;
+                margin-top: 26%;
                 z-index: -1;
                 width: 22vw;
                 left: 58%;
