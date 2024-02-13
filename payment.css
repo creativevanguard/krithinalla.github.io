@@ -142,7 +142,7 @@ select {
 /*--------------------------------------------Tablet Size--------------------------------------------------------*/
 
 @media (min-width:820px) {
-    .row {
+    /*.row {
         width: 65%;
         padding-top: 2%;
     }
@@ -162,6 +162,40 @@ select {
     }
     .content {
         width: 80%;
+    }*/
+    .container {
+        /*display: flex;
+        flex-direction: row;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 80%;*/
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-51%, -50%);
+        display: flex;
+        width: 85%;
+    }
+    .desktop {
+        display: block;
+        color: #E7D721;
+        font-size: 18px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 75%;
+    }
+    .content {
+       /* margin-top: 12%;*/
+       width: 80%;
+    }
+    .row {
+        width: 100%;
+        /*padding-top: 15%;*/
+    }
+    input[type=text], select{
+        width: 90%;
     }
 }
 
@@ -179,6 +213,10 @@ select {
 
 
 /*--------------------------------------------Desktop Size--------------------------------------------------------*/
+
+
+
+
 
 @media (min-width:1220px) {
     .container {
