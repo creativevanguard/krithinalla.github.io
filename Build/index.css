@@ -753,7 +753,9 @@
             /* margin-top: 14vh; */
             width: 42%;
         }
-        
+        .cloud-lady-wrapper{
+            display: none;
+        }
         #lady {
             right: 0;
             width: 52%;
@@ -882,6 +884,9 @@
                 right: 0%;
                 width: 50%;
             }
+            .cloud-lady-wrapper{
+                display: none;
+            }
             .button-wrapper {
                 display: block;
                 position: absolute;
@@ -1000,12 +1005,32 @@
                 bottom: 7%;
                 right: 0%;
                 width: 50%;
+                display: block;
             }
             #cl {
+                display: block;
                 right: -9%;
                 /* margin-top: 42vh; */
                 width: 55%;
                 bottom: 82%;
+            }
+            .cloud-lady-wrapper{
+                display: block;
+                z-index: 9999;
+                width: 100%;
+                position: absolute;
+                top: 95%;
+            }
+            .lady-wrapper{
+                display: block;
+                position: absolute;
+                width: 50%;
+                left: 50%;
+
+            }
+            #cloud-lady{
+                display: block;
+                position: absolute;
             }
             #second-text-box {
                 display: block;
@@ -1083,7 +1108,7 @@
             #lady {
                 bottom: 0%;
                 right: 0px;
-                width: 40%;
+                width: 35%;
             }
             #land {
                 position: absolute;
@@ -1101,7 +1126,7 @@
                 left: 58%;
             }
             #second-text-box {
-                Width: 45%;
+                Width: 70%;
                 top: -10%;
             }
             #second-text-box p {
@@ -1850,7 +1875,7 @@
                 font-size: 25px;
             }
             .specs {
-                font-size: 47.5px;
+                font-size: 2.5vw;
             }
             .bigtt {
                 font-size: 75px;
@@ -2218,20 +2243,34 @@
             #sixth-div {
                 height: 100vh;
             }
-            .boxhead {
+           /* .boxhead {
                 position: absolute;
                 width: 100%;
                 top: 55%;
                 left: -2%;
+            }*/
+            .boxhead {
+                position: absolute;
+                width: 94%;
+                top: 65%;
+                left: 2%;
             }
             .head {
+                font-family: 'helv';
+                position: relative;
+                font-size: 25px;
+                width: 25%;
+                /* left: 0%; */
+                margin-top: -40%;
+            }
+           /* .head {
                 font-family: 'helv';
                 position: relative;
                 font-size: 35px;
                 width: 32%;
                 left: 0%;
                 margin-top: -39%;
-            }
+            }*/
             .sixth-title {
                 position: absolute;
                 font-size: 35px;
